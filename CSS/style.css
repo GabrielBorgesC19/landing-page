@@ -1,0 +1,80 @@
+@font-face {
+  font-family:'BMW' ;
+  src: url(/Fonte/BMWTypeNext-Light.20210426144302.ttf);
+}
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body {
+ overflow-x: hidden;
+}
+
+header {
+  display: flex;
+  background: rgb(255, 255, 255);
+  text-align: center;
+  font-family: 'BMW';
+  justify-content: space-around;
+  height: 150px;
+}
+
+.navbar-contatos{
+  display: flex;
+  gap: 4vh;
+  margin-top: 35px;
+}
+
+
+.box-preta{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  background-color: black;
+  color: white;
+  font-size: 0.8em;
+  width: 15%;
+  padding: 3px;
+}
+
+.box-verde{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  background-color: green;
+  color: white;
+  font-size: 0.8em;
+  width: 15%;
+  padding: 3px;
+}
+
+.nav-list{
+  list-style: none;
+  display: flex;
+  align-items: end;
+  gap: 50px;
+  font-size: 0.8em;
+}
+
+.nav-list li a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold
+}
+
+.navbar-menu{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.logo-bmw{
+  display: flex;
+  align-items: center;
+}
+
+.banner img{
+width: 100vw;
+}
